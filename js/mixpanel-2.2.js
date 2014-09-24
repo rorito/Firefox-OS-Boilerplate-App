@@ -1999,7 +1999,7 @@ Globals should be all caps
                 img.src = url;
             document.body.appendChild(img);
         } else if (USE_XHR) {
-            var req = new XMLHttpRequest();
+            var req = new XMLHttpRequest({ mozSystem: true });
             req.open("GET", url, true);
             // send the mp_optout cookie
             // withCredentials cannot be modified until after calling .open on Android and Mobile Safari
