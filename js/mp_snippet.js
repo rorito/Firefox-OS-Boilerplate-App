@@ -8,3 +8,8 @@ mixpanel.people.set({
     "credits": 150,                    // ...or numbers
     "gender": "Male"                    // feel free to define your own properties
 });
+
+mixpanel.track("Video played", {
+    "length": 213,
+    "id": "hY7gQr0"
+});
