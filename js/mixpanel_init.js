@@ -36,4 +36,4 @@ console.log("mixpanel_init");
                 e.parentNode.insertBefore(a,e);
         }
     })(document,window.mixpanel||[]);
-mixpanel.init("ab007984c90edee955e8005d67714670");
+mixpanel.init("YOUR MIXPANEL ID");
